@@ -14,5 +14,6 @@
 }
 
 .sprite {
-  height: 200%;
+  height: 100px;
+  width: auto;
 }

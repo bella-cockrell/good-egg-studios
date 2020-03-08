@@ -7,8 +7,8 @@ function App() {
   return (
     <div className='App'>
       <div className='App-header'>
+        <div className='sprite'>
           <Spritesheet
-            className='sprite'
             image={logo}
             widthFrame={74}
             heightFrame={98}
@@ -18,8 +18,9 @@ function App() {
             loop={true}
             isResponsive={true}
           />
+        </div>
         <h1>
-          Welcome to Good Egg Studios
+          Good Egg Studios coming soon
       </h1>
       </div>
     </div>
